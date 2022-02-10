@@ -8,4 +8,4 @@ class Post(models.Model):
 
 
 class Like(models.Model):
-    post = models.ForeignKey(Post, on_delete='CASCADE')
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
